@@ -10,6 +10,12 @@ body {
     padding: 10px;
 }
 
+p{
+    line-height: 25px; /* define o espaçamento entre linhas */
+    text-indent: 10px;
+    text-align: justify;
+}
+
 header {
     text-align: center;
 }
@@ -114,17 +120,6 @@ h2,h3{
     margin-bottom: 30px;
 }
 
-footer{
-    font-family: Montserrat;
-    font-style: italic;
-    color:black;
-    background-color:rgb(149, 149, 223);
-    font-weight: bolder;
-    margin-top: 50px;
-    margin-bottom: 5px;
-    text-align: center;
-}
-
 .sobre img{
     margin-top: 40px;
     width: 100%;
@@ -137,4 +132,15 @@ footer{
     font-weight: bolder;
     text-align:center;
     font-size: 50px;
+}
+
+footer{
+    font-family: Montserrat;
+    font-style: italic;
+    color:black;
+    background-color:rgb(149, 149, 223);
+    font-weight: bolder;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    text-align: center;
 }
