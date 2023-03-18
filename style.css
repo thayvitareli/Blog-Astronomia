@@ -1,36 +1,39 @@
 
 body {
-    min-height: 100vh;
+    min-height: 300px; /*  responsividade */
+    max-width: 1920px; /* responsividade */
     background-color: rgb(1, 1, 19);
-    height: 100vw;
-    margin: auto;
+    margin: 0;
     font-family: Montserrat;
-    font-size: 15px;
+    font-size: 1rem;
     color: white;
-    padding: 10px;
+
 }
 
 p{
-    line-height: 25px; /* define o espaçamento entre linhas */
-    text-indent: 10px;
+    line-height: 2rem;
+    text-indent: 1rem; 
     text-align: justify;
+    margin: 1rem;
+}
+
+.color {
+    color:rgb(230, 230, 65);
 }
 
 header {
     text-align: center;
 }
 
-.nave ul{
+nav ul{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     list-style-type: none;
 }
 
-.nave li{
+.menu li{
     font-family: Montserrat;
-    font-size: 15px;
-
-   
+    font-size: 1rem;
 }
 
 a{
@@ -46,56 +49,58 @@ nav a:hover{
 h2,h3{
     font-family: Montserrat;
     text-align:center;
-    font-size: 40px;
+    font-size: 2rem;
     color: crimson;
 
 }
 
 .box{
     
-    width: 100%;
-    background-image: url(https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616_960_720.jpg);
+    background-image: url("files/header.jpg");
     background-position: center;
     background-size: cover;
-    padding: 150px;
+    background-repeat: no-repeat;
+    padding: 10%;
     box-sizing: border-box;
+}
+
+.box h1{
     color: aliceblue;
     font-family: Lato,Helvetica,sans-serif;
     font-weight: bolder;
     text-align:center;
-    font-size: 50px;
+    font-size: 3rem;
     
 }
 
 .Titulo{
-    height:auto;
-    width: auto;
+  
     background-color:crimson;
     text-align: center;
-    font-size: 16px;
+    font-size: 1rem;
+    justify-content: center;
 }
 
 .galeria-container{
-    
+    width: 100%;
     margin-top: 30px;
     display: flex;
     flex-wrap:wrap;
-    justify-content:space-between 5px;
+    justify-content:space-between;
     gap: 0.5vw;
-    padding: 0 1vw;
-      
+    justify-content: center; 
 }
+
 .galeria-item{
-    width: auto;
-    height: auto;
-    text-align: center;
-   
+
+    text-align: center;  
 }
 
 .galeria-item img{
-    width: 300px;
-    height: 220px;
-    object-fit:fill;
+    margin: auto;
+    width: 250px;
+    height: 200px;
+    object-fit:cover;
     border: 0.5px solid rgb(125, 125, 125);
 }
 
@@ -104,38 +109,28 @@ h2,h3{
 }
 
 .index p{
-
     text-align: center;
-    font-family: Montserrat;
-    font-size: 15px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-.noticias p{
-    text-align:justify;
-    font-family: 'Lato';
-    font-size: 20px;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    font-family: 'Montserrat';
+    font-size: 1rem;
 }
 
 .sobre img{
     margin-top: 40px;
     width: 100%;
+    
 }
 
 .sobre h1{
     margin-top:50px;
     color: aliceblue;
-    font-family: Lato,Helvetica,sans-serif;
+    font-family: 'Lato',Helvetica,sans-serif;
     font-weight: bolder;
     text-align:center;
-    font-size: 50px;
+    font-size: 2rem;
 }
 
 footer{
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-style: italic;
     color:black;
     background-color:rgb(149, 149, 223);
