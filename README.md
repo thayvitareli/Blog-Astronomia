@@ -1,3 +1,4 @@
 # Projeto-Blog-HTML-CSS
-Iniciei os estudos sobre aplicações web. Esse foi meu primeiro projeto desenvolvido utilizando apenas HTML e CSS.
-O objetivo foi praticar o básico para então dar continuidade nos estudos.
+Iniciei os estudos sobre desenvolvimento Web e esse foi meu primeiro projeto feito utilizando HTML e CSS.
+O objetivo é praticar o básico para então dar continuidade nos estudos.
+A escolha do tema do blog se deu por questão de gosto e curiosidade pelo assunto.
